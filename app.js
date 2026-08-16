@@ -28,10 +28,10 @@ console.log("Unicode of First Character: " + name.charCodeAt(0));
 console.log("Contains \"a\" :" + name.includes("a"));
 
 // returning the part of the string upto end starting from 2 using slice() method
-console.log("Slicing: " + name.slice(2)); //hul
+console.log("Slicing: " + name.slice(2));
 
 // returning the part of the string upto 3 using the substring() method it gives 1 to 2
-console.log("Substring: " + name.substring(3,1)); //ah
+console.log("Substring: " + name.substring(3,1));
 
 //Converting the name to Upper case using the toUpperCase() method
 console.log("Uppercase: " + name.toUpperCase());
