@@ -1,16 +1,3 @@
-/* Built In JS Methods
-
-    *Global Methods(isNaN, encodeURI(), decodeURI(), encodeURIComponent(), decodeURIComponent());
-    *Parsing Numbers
-    *Making Integers with parseInt()
-    *Making Floats with parseFloat()
-    *Array Methods
-    *forEach(), filter(), every(), copyWithin(), map(), lastIndexOf(), reduce(), includes(), find(), findLastIndex(), findIndex(), findLast(), join(), flat(), flatMap(), at()
-    *String Methods
-    *at(), length, charAt(), charCodeAt(), includes()
-
-*/
-
 // Project
 let name = "Rahul";
 
@@ -39,3 +26,21 @@ console.log("Unicode of First Character: " + name.charCodeAt(0));
 
 // using the includes() method to get the boolean value for the character(checking whether it's present or not)
 console.log("Contains \"a\" :" + name.includes("a"));
+
+// returning the part of the string upto end starting from 2 using slice() method
+console.log("Slicing: " + name.slice(2)); //hul
+
+// returning the part of the string upto 3 using the substring() method it gives 1 to 2
+console.log("Substring: " + name.substring(3,1)); //ah
+
+//Converting the name to Upper case using the toUpperCase() method
+console.log("Uppercase: " + name.toUpperCase());
+
+//Converting the name to lower case using the toLowerCase() method
+console.log("Lowercase: " + name.toLowerCase());
+
+// concat method to concat both the strings just like +
+console.log("Concat: " + name.concat(" ", "Sharma"));
+
+//removing the whitespace using the trim() method
+console.log("Trim: " + name.trim());
