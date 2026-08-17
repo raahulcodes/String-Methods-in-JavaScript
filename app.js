@@ -39,11 +39,14 @@ console.log("Uppercase: " + name.toUpperCase());
 //Converting the name to lower case using the toLowerCase() method
 console.log("Lowercase: " + name.toLowerCase());
 
-// padStart() adds the padString at the start of the string element 
-console.log(name.padStart(20, "3"));
-
 // concat method to concat both the strings just like +
 console.log("Concat: " + name.concat(" ", "Sharma"));
 
 //removing the whitespace using the trim() method
 console.log("Trim: " + name.trim());
+
+// padStart() adds the padString at the start of the string element 
+console.log(name.padStart(20, "3"));
+
+// padEnd() adds the padString at the end of the string element 
+console.log(name.trimStart().padEnd(20, "3"));
