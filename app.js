@@ -50,3 +50,9 @@ console.log(name.padStart(20, "3"));
 
 // padEnd() adds the padString at the end of the string element 
 console.log(name.trimStart().padEnd(20, "3"));
+
+// repeat() repeats the string the number of times mentioned
+console.log(name.repeat(3))
+
+// in order to replace a value use replace()
+console.log(name.replace("Rahul", "Sharma"));
