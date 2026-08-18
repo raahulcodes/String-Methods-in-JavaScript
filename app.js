@@ -72,3 +72,6 @@ console.log(name.endsWith("l", 6)); //checking if the length is 5 or not
 
 // indexOf() returns the index of the character
 console.log(name.indexOf("R"));
+
+// lastIndexOf() returns the last index of character
+console.log(fruits.lastIndexOf("Mango"));
