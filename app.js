@@ -69,3 +69,6 @@ console.log(fruits.startsWith("Mango", 7)); //using the index value from where i
 
 // checking if string ends with certain string 
 console.log(name.endsWith("l", 6)); //checking if the length is 5 or not
+
+// indexOf() returns the index of the character
+console.log(name.indexOf("R"));
