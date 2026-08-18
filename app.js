@@ -66,3 +66,6 @@ console.log(fruits.split(" "));
 // checking if the string starts with startsWith()
 console.log(name.startsWith("Rahul", 1)); //using the index value from where it starts
 console.log(fruits.startsWith("Mango", 7)); //using the index value from where it starts
+
+// checking if string ends with certain string 
+console.log(name.endsWith("l", 6)); //checking if the length is 5 or not
