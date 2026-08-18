@@ -62,3 +62,7 @@ console.log(fruits.replaceAll("Mango", "Orange"));
 
 // in order to convert the string to array use split()
 console.log(fruits.split(" "));
+
+// checking if the string starts with startsWith()
+console.log(name.startsWith("Rahul", 1)); //using the index value from where it starts
+console.log(fruits.startsWith("Mango", 7)); //using the index value from where it starts
