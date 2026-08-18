@@ -59,3 +59,6 @@ console.log(name.replace("Rahul", "Sharma"));
 
 // in order to replace all the occurences of string replaceAll()
 console.log(fruits.replaceAll("Mango", "Orange"));
+
+// in order to convert the string to array use split()
+console.log(fruits.split(" "));
