@@ -54,5 +54,8 @@ console.log(name.trimStart().padEnd(20, "3"));
 // repeat() repeats the string the number of times mentioned
 console.log(name.repeat(3))
 
-// in order to replace a value use replace()
+// in order to replace a value use replace() for first occurence only
 console.log(name.replace("Rahul", "Sharma"));
+
+// in order to replace all the occurences of string replaceAll()
+console.log(fruits.replaceAll("Mango", "Orange"));
