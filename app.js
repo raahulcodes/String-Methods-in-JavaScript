@@ -81,3 +81,5 @@ console.log(name.search("l"));
 
 // match() returns the element asked for matching
 console.log(string.match(/Javascript/g)); //matches the occurence of javascript at all places and then returns an array.
+
+// matchAll() returns all the matching instances
