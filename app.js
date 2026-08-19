@@ -78,3 +78,6 @@ console.log(fruits.lastIndexOf("Mango"));
 
 // search gives the index of the starting position of the string
 console.log(name.search("l"));
+
+// match() returns the element asked for matching
+console.log(string.match(/Javascript/g)); //matches the occurence of javascript at all places and then returns an array.
