@@ -75,3 +75,6 @@ console.log(name.indexOf("R"));
 
 // lastIndexOf() returns the last index of character
 console.log(fruits.lastIndexOf("Mango"));
+
+// search gives the index of the starting position of the string
+console.log(name.search("l"));
